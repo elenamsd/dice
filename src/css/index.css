@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-body {
+  background-image: url("assets/vegas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+
+  background-color: orange;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dices {
+  width: 800px;
+  height: 800px;
+  background-color: orchid;
+  margin: auto;
+}
+
+#diceFace {
+  font-size: 200px;
+}
+
+.history {
+  width: 200px;
+  height: 800px;
+  border: 4px solid grey;
+  text-align: center;
+}

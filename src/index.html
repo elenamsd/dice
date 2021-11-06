@@ -4,11 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>¡Lanza el dado!</title>
+  <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/game-die_1f3b2.png">
   <link rel="stylesheet" href="./css/index.css">
   <script type="module" src="./js/index.js"></script>
 </head>
 <body>
-
+  <div class="container-body">
+    <div class="board">
+      <div class="dices">
+        <div class="dice dice1">
+          <h1 id="diceFace">⚀</h1>
+        </div>
+      </div>
+      <div class="history">
+        <h1>Historial</h1>
+        <h2 id="historyText"></h2>
+      </div>
+    </div>
+    
+    <button id="buttonThrow">Tira el dado</button>
+  </div>
 </body>
 </html>
